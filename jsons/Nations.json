@@ -27,6 +27,9 @@
      			"[+3 Gold, +3 Food, +3 Culture, +3 Science] from each Trade Route",
 			"[+20]% [Gold] from Trade Routes",
      			"[-50]% construction time for [All Road] improvements",
+			"[-50]% maintenance on road & railroads",
+			"Improves movement speed on roads",
+			"Roads connect tiles across rivers",
 			"[Melee] units gain the [Cover I] promotion",
 			"[Melee] units gain the [Cover II] promotion <after discovering [Iron Working]>"
     ],
