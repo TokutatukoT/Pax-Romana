@@ -4,7 +4,7 @@
 		"leaderName": "Augustus Caesar",
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Cultural",
 		"personality": "Augustus Caesar",
 
 
@@ -24,14 +24,20 @@
 		"uniqueName": "All Roads Lead to the Glory of Rome",
 		"uniques": [
      			"[+50]% Production towards any buildings that already exist in the Capital",
+			"Provides a [Colosseum] in your first [4] cities for free <after discovering [Construction]>",
+			"Provides a [Aqueduct] in your first [4] cities for free <after discovering [Engineering]>",
+			"[+2 Happines, +2 Culture, +1 Gold] from all [Colosseum] buildings",
+			"[+2 Food, +1 Culture, +1 Gold] from all [Aqueduct] buildings",
      			"[+3 Gold, +3 Food, +3 Culture, +3 Science] from each Trade Route",
-			"[+20]% [Gold] from Trade Routes",
+			"[+25]% [Gold] from Trade Routes",
+			"[+25]% [Production] from Trade Routes",
      			"[-50]% construction time for [All Road] improvements",
 			"[-50]% maintenance on road & railroads",
 			"Improves movement speed on roads",
 			"Roads connect tiles across rivers",
-			"[Melee] units gain the [Cover I] promotion",
-			"[Melee] units gain the [Cover II] promotion <after discovering [Iron Working]>"
+			"[relevant] units gain the [March] promotion",
+			"[relevant] units gain the [Cover I] promotion",
+			"[relevant] units gain the [Cover II] promotion <after discovering [Iron Working]>"
     ],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
