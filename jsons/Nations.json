@@ -37,7 +37,8 @@
 			"Roads connect tiles across rivers",
 			"[relevant] units gain the [March] promotion",
 			"[relevant] units gain the [Cover I] promotion",
-			"[relevant] units gain the [Cover II] promotion <after discovering [Iron Working]>"
+			"[relevant] units gain the [Cover II] promotion <after discovering [Iron Working]>",
+			"[+25]% Strength <when defending>"
     ],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
