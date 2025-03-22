@@ -18,20 +18,26 @@
 	"name": "Insula",
 	"uniqueTo": "Rome",
 	"food": 1,
-	"gold": 2,
+	"gold": 1,
 	"uniques": [
-		"[+25]% Great Person generation [in this city]",
+		"[+15]% growth [in this city]",
+		"[+1 Gold] per [2] population [in this city]",
+		"Requires at least [3] population",
 		"Destroyed when the city is captured"
 	],
   },
   {
-	"name": "Domun",
+	"name": "Domus",
 	"uniqueTo": "Rome",
 	"requiredBuilding": "Insula",
 	"culture": 2,
 	"gold": 2,
+	"specialistSlots": {"Artist": 1, "Engineer": 1, "Merchant": 1, "Scientist": 1},
 	"uniques": [
 		"[+25]% Great Person generation [in this city]",
+		"[+1 Happiness] per [5] population [in this city]",
+		"[+1 Gold] from every specialist [in this city]",
+		"[+50]% Yield from every [Bonus resource]",
 		"Destroyed when the city is captured"
 	],
 	"requiredTech": "Masonry"
@@ -39,11 +45,18 @@
   {
 	"name": "Villa",
 	"uniqueTo": "Rome",
-	"requiredBuilding": "Domun",
+	"requiredBuilding": "Domus",
 	"cityHealth": 20,
-	"specialistSlots": {Artist: 1, Engineer: 1, Merchant: 1, Scientist: 1}
+	"greatPersonPoints": {"Great Artist": 1, "Great Engineer": 1, "Great Merchant": 1, "Great Scientist": 1},
 	"uniques": [
 		"[+25]% Great Person generation [in this city]",
+		"[+1 Gold, +1 Happiness] from every [Luxury resource]",
+		"[+50]% Yield from every [Luxury resource]",
+		"Provides 1 extra copy of each improved luxury resource near this City",
+		"Must have an owned [Hill] within [3] tiles",
+		"Must not be next to [Snow]",
+		"Must not be next to [Tundra]",
+		"Must not be next to [Desert]",
 		"Destroyed when the city is captured"
 	],
 	"requiredTech": "Construction"
