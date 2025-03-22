@@ -1,3 +1,3 @@
-The following is from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a> licenced under Creative Commons
+The following is from the Flaticon
 
-Pantheon by Linseed Studio from <a href="https://thenounproject.com/browse/icons/term/pantheon/" target="_blank" title="Pantheon Icons">Noun Project</a> (CC BY 3.0)
+<a href="https://www.flaticon.com/free-icons/pantheon" title="Pantheon icons">Pantheon icons created by Eucalyp - Flaticon</a>
