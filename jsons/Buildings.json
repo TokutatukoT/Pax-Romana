@@ -1,17 +1,51 @@
 [
   {
-    "name": "The Pantheon",
-    "uniqueTo": "Rome",
-		"culture": 5,
-		"faith": 5,
-		"uniques": [
-      "Only available <after founding a Pantheon>",
-			"[+50]% Natural religion spread [in this city]",
-      "Religion naturally spreads to cities [2] tiles away",
-      "Only available <when religion is enabled>",
-      "Gain a free [Shrine] [in all cities]",
-    ],
-		"requiredTech": "Pottery",
-		"isNationalWonder": true
+    	"name": "The Pantheon",
+    	"uniqueTo": "Rome",
+	"culture": 5,
+	"faith": 5,
+	"uniques": [
+      		"Only available <after founding a Pantheon>",
+		"[+50]% Natural religion spread [in this city]",
+      		"Religion naturally spreads to cities [2] tiles away",
+      		"Only available <when religion is enabled>",
+      		"Gain a free [Shrine] [in all cities]",
+	],
+	"requiredTech": "Pottery",
+	"isNationalWonder": true
+  },
+  {
+	"name": "Insula",
+	"uniqueTo": "Rome",
+	"food": 1,
+	"gold": 2,
+	"uniques": [
+		"[+25]% Great Person generation [in this city]",
+		"Destroyed when the city is captured"
+	],
+  },
+  {
+	"name": "Domun",
+	"uniqueTo": "Rome",
+	"requiredBuilding": "Insula",
+	"culture": 2,
+	"gold": 2,
+	"uniques": [
+		"[+25]% Great Person generation [in this city]",
+		"Destroyed when the city is captured"
+	],
+	"requiredTech": "Masonry"
+  },
+  {
+	"name": "Villa",
+	"uniqueTo": "Rome",
+	"requiredBuilding": "Domun",
+	"cityHealth": 20,
+	"specialistSlots": {Artist: 1, Engineer: 1, Merchant: 1, Scientist: 1}
+	"uniques": [
+		"[+25]% Great Person generation [in this city]",
+		"Destroyed when the city is captured"
+	],
+	"requiredTech": "Construction"
   }
 ]
