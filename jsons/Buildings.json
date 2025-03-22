@@ -9,7 +9,6 @@
 			"[+50]% Natural religion spread [in this city]",
       "Religion naturally spreads to cities [2] tiles away",
       "Only available <when religion is enabled>",
-      "Can only be built <in [Holy] cities>",
       "Gain a free [Shrine] [in all cities]",
     ],
 		"requiredTech": "Pottery",
