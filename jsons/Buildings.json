@@ -17,6 +17,7 @@
   {
 	"name": "Insula",
 	"uniqueTo": "Rome",
+	"cost": 40,
 	"food": 1,
 	"gold": 1,
 	"uniques": [
