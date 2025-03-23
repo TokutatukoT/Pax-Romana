@@ -1,13 +1,13 @@
 
 game.png
-size: 1024, 1024
+size: 512, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/The Pantheon
   rotate: false
   xy: 4, 4
-  size: 700, 700
-  orig: 700, 700
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
