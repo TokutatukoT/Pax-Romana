@@ -1,5 +1,22 @@
 [
   {
+	"name": "Forum Romanum",
+	"uniqueTo": "Rome",
+	"replaces": "Palace",
+	"isNationalWonder": true,
+	"production": 5,
+	"science": 5,
+	"gold": 3,
+	"culture": 5,
+	"happiness": 1,
+	"faith": 1,
+	"cityStrength": 5,
+	"uniques": [
+		"Indicates the capital city",
+		"[-10]% Culture cost of natural border growth [in this city]"
+	]
+  },
+  {
     	"name": "The Pantheon",
     	"uniqueTo": "Rome",
 	"culture": 5,
