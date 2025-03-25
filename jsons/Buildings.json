@@ -5,13 +5,31 @@
 	"culture": 5,
 	"faith": 5,
 	"uniques": [
-      		"Only available <after founding a Pantheon>",
+      		"Gain enough Faith for a Pantheon",
+		"Gain a free [Pantheon] belief",
 		"[+50]% Natural religion spread [in this city]",
       		"Religion naturally spreads to cities [2] tiles away",
       		"Only available <when religion is enabled>",
       		"Gain a free [Shrine] [in all cities]",
 	],
 	"requiredTech": "Pottery",
+	"isNationalWonder": true
+  },
+  {
+    	"name": "Mausoleum of Hadrian",
+    	"uniqueTo": "Rome",
+	"culture": 5,
+	"specialistSlots": {"Artist": 1, "Engineer": 1},
+	"greatPersonPoints": {"Great Artist": 1, "Great Engineer": 1},
+	"cityStrength": 5,
+	"cityHealth": 30,
+	"uniques": [
+		"Gain [100] [Gold] <upon expending a [Great Person] unit>",
+      		"Religion naturally spreads to cities [2] tiles away",
+      		"New [Military] units start with [15] XP [in this city]",
+      		"Gain a free [Castle] [in this city]",
+	],
+	"requiredTech": "Engineering",
 	"isNationalWonder": true
   },
   {
