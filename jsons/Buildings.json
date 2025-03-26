@@ -11,6 +11,7 @@
 	"happiness": 1,
 	"faith": 1,
 	"cityStrength": 5,
+	"cost": 1,
 	"uniques": [
 		"Indicates the capital city",
 		"[-10]% Culture cost of natural border growth [in this city]"
