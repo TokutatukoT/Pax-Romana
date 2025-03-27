@@ -60,7 +60,8 @@
 	"uniques": [
 		"[+15]% growth [in this city]",
 		"[+1 Gold] per [2] population [in this city]",
-		"[+20]% Yield from every [Great]",
+		"[+50]% Yield from every [Water resource]",
+		"[+20]% Yield from every [Strategic resource]",
 		"Requires at least [3] population",
 		"Destroyed when the city is captured"
 	],
@@ -76,8 +77,9 @@
 		"[+25]% Great Person generation [in this city]",
 		"[+1 Happiness] per [5] population [in this city]",
 		"[+1 Gold] from every specialist [in this city]",
+		"[+30]% Yield from every [Strategic resource]",
 		"[+50]% Yield from every [Bonus resource]",
-		"[+15]% Yield from every [Great]",
+		"[+20]% Yield from every [Great]",
 		"Destroyed when the city is captured"
 	],
 	"requiredTech": "Masonry"
@@ -93,7 +95,7 @@
 		"[+1 Gold, +1 Happiness] from every [Luxury resource]",
 		"[+50]% Yield from every [Luxury resource]",
 		"Provides 1 extra copy of each improved luxury resource near this City",
-		"[+15]% Yield from every [Great]",
+		"[+30]% Yield from every [Great]",
 		"Must have an owned [Hill] within [3] tiles",
 		"Must not be next to [Snow]",
 		"Must not be next to [Tundra]",
