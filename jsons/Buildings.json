@@ -24,13 +24,29 @@
 	"faith": 5,
 	"uniques": [
       		"Gain enough Faith for a Pantheon",
-		"Gain a free [Pantheon] belief",
+		"May choose [2] additional [Pantheon] beliefs when [founding] a religion",
 		"[+50]% Natural religion spread [in this city]",
       		"Religion naturally spreads to cities [2] tiles away",
       		"Only available <when religion is enabled>",
       		"Gain a free [Shrine] [in all cities]",
+		"[+50]% Yield from every [Faith]"
 	],
 	"requiredTech": "Pottery",
+	"isNationalWonder": true
+  },
+  {
+    	"name": "Cloaca Maxima",
+    	"uniqueTo": "Rome",
+	"food": 3,
+	"science": 1,
+	"greatPersonPoints": {"Great Engineer": 1},
+	"uniques": [
+		"[+10]% growth [in all cities]",
+		"[20]% Food is carried over after population increases [in all cities]",
+      		"Provides a [Thermae] in your first [4] cities for free",
+		"[+25]% Yield from every [Food]"
+	],
+	"requiredTech": "Engineering",
 	"isNationalWonder": true
   },
   {
@@ -52,17 +68,34 @@
 	"isNationalWonder": true
   },
   {
+	"name": "Thermae",
+	"uniqueTo": "Rome",
+	"requiredBuilding": "Aqueduct",
+	"culture": 2,
+	"happiness": 3,
+	"percentStatBonus": {"culture": 25},
+	"specialistSlots": {"Artist": 1, "Engineer": 1, "Merchant": 1, "Scientist": 1},
+	"uniques": [
+		"[+25]% Great Person generation [in this city]",
+		"[+1 Happiness] per [5] population [in this city]",
+		"[-25]% Food consumption by specialists [in this city]",
+		"[-25]% Unhappiness from [Specialists] [in this city]",
+		"Destroyed when the city is captured"
+	],
+	"requiredTech": "Engineering"
+  },
+  {
 	"name": "Insula",
 	"uniqueTo": "Rome",
 	"cost": 40,
 	"food": 1,
 	"gold": 1,
 	"uniques": [
-		"[+15]% growth [in this city]",
+		"[+10]% growth [in this city]",
 		"[+1 Gold] per [2] population [in this city]",
 		"[+50]% Yield from every [Water resource]",
 		"[+20]% Yield from every [Strategic resource]",
-		"Requires at least [3] population",
+		"Requires at least [2] population",
 		"Destroyed when the city is captured"
 	],
   },
