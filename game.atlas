@@ -4,16 +4,23 @@ size: 1024, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Mausoleum of Hadrian
+BuildingIcons/Forum Romanum
   rotate: false
   xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mausoleum of Hadrian
+  rotate: false
+  xy: 4, 112
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/The Pantheon
   rotate: false
-  xy: 268, 4
+  xy: 268, 112
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
