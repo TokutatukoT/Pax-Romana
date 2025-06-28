@@ -14,7 +14,7 @@
 	"cost": 1,
 	"uniques": [
 		"Indicates the capital city",
-		"[-10]% Culture cost of natural border growth [in this city]"
+		"[-20]% Culture cost of natural border growth [in this city]"
 	]
   },
   {
@@ -25,11 +25,11 @@
 	"uniques": [
       		"Gain enough Faith for a Pantheon",
 		"May choose [2] additional [Pantheon] beliefs when [founding] a religion",
-		"[+50]% Natural religion spread [in this city]",
+		"[+25]% Natural religion spread [in this city]",
+		"[+25]% Natural religion spread [in all cities]",
       		"Religion naturally spreads to cities [2] tiles away",
       		"Only available <when religion is enabled>",
-      		"Gain a free [Shrine] [in all cities]",
-		"[+50]% Yield from every [Faith]"
+      		"Gain a free [Shrine] [in all cities]"
 	],
 	"requiredTech": "Pottery",
 	"isNationalWonder": true
@@ -43,8 +43,8 @@
 	"uniques": [
 		"[+10]% growth [in all cities]",
 		"[20]% Food is carried over after population increases [in all cities]",
-      		"Provides a [Thermae] in your first [4] cities for free",
-		"[+25]% Yield from every [Food]"
+		"[+1 Gold, +1 Happiness] from every [Fresh Water]",
+      		"Provides a [Thermae] in your first [4] cities for free"
 	],
 	"requiredTech": "Engineering",
 	"isNationalWonder": true
@@ -92,10 +92,14 @@
 	"gold": 1,
 	"uniques": [
 		"[+10]% growth [in this city]",
-		"[+1 Gold] per [2] population [in this city]",
-		"[+50]% Yield from every [Water resource]",
-		"[+20]% Yield from every [Strategic resource]",
-		"Requires at least [2] population",
+		"[+1 Gold] per [3] population [in this city]",
+		"[+1 Production] per [3] population [in this city]",
+		"[+1 Food, +1 Production] from [Plantation] tiles [in this city]",
+		"[+1 Food, +1 Production] from [Fishing Boats] tiles [in this city]",
+		"[+1 Food, +1 Production] from [Camp] tiles [in this city]",
+		"[+1 Food, +1 Production] from [Pasture] tiles [in this city]",
+		"[+2 Production] from [Quarry] tiles [in this city]",
+		"[+1 Production] from [Strategic Resource] tiles [in this city]",
 		"Destroyed when the city is captured"
 	],
   },
@@ -103,16 +107,22 @@
 	"name": "Domus",
 	"uniqueTo": "Rome",
 	"requiredBuilding": "Insula",
-	"culture": 2,
-	"gold": 2,
-	"specialistSlots": {"Artist": 1, "Engineer": 1, "Merchant": 1, "Scientist": 1},
+	"culture": 1,
+	"gold": 1,
+	"specialistSlots": {"Artist": 2, "Engineer": 2, "Merchant": 2, "Scientist": 2},
 	"uniques": [
+		"[+10]% growth [in this city]",
+		"[+1 Gold] per [2] population [in this city]",
+		"[+1 Production] per [2] population [in this city]",
 		"[+25]% Great Person generation [in this city]",
 		"[+1 Happiness] per [5] population [in this city]",
 		"[+1 Gold] from every specialist [in this city]",
-		"[+30]% Yield from every [Strategic resource]",
-		"[+50]% Yield from every [Bonus resource]",
-		"[+20]% Yield from every [Great]",
+		"[+1 Production] from [Strategic Resource] tiles [in this city]",
+		"[+2 Culture] from [Landmark] tiles [in this city]",
+		"[+2 Production] from [Manufactory] tiles [in this city]",
+		"[+2 Gold] from [Customs House] tiles [in this city]",
+		"[+2 Faith] from [Holy Site] tiles [in this city]",
+		"[+2 Science] from [Academy] tiles [in this city]",
 		"Destroyed when the city is captured"
 	],
 	"requiredTech": "Masonry"
@@ -125,14 +135,11 @@
 	"greatPersonPoints": {"Great Artist": 1, "Great Engineer": 1, "Great Merchant": 1, "Great Scientist": 1},
 	"uniques": [
 		"[+25]% Great Person generation [in this city]",
-		"[+1 Gold, +1 Happiness] from every [Luxury resource]",
-		"[+50]% Yield from every [Luxury resource]",
-		"Provides 1 extra copy of each improved luxury resource near this City",
-		"[+30]% Yield from every [Great]",
-		"Must have an owned [Hill] within [3] tiles",
-		"Must not be next to [Snow]",
-		"Must not be next to [Tundra]",
-		"Must not be next to [Desert]",
+		"[+2 Gold, +2 Happiness] from [Luxury Resource] tiles [in this city]",
+		"[+3 Gold, +3 Culture, +3 Happiness] from [Natural Wonder] tiles [in this city]",
+		"[+1 Happiness] per [3] population [in this city]",
+		"[+1 Gold, +1 Happiness] from every specialist [in this city]",
+		"[+2 Happiness] from [Great Improvements] tiles [in this city]",
 		"Destroyed when the city is captured"
 	],
 	"requiredTech": "Construction"
