@@ -36,9 +36,9 @@
 			"[-50]% maintenance on road & railroads",
 			"Improves movement speed on roads",
 			"Roads connect tiles across rivers",
-			"[Military] units gain the [March] promotion <after discovering [Civil Service]>",
-			"[Military] units gain the [Cover I] promotion <after discovering [Iron Working]>",
-			"[Military] units gain the [Cover II] promotion <after discovering [Iron Working]>"
+			"[Land] units gain the [March] promotion <after discovering [Civil Service]>",
+			"[Melee] units gain the [Cover I] promotion <after discovering [Iron Working]>",
+			"[Melee] units gain the [Cover II] promotion <after discovering [Iron Working]>"
     ],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
