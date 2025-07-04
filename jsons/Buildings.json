@@ -14,7 +14,7 @@
 	"cost": 1,
 	"uniques": [
 		"Indicates the capital city",
-		"[-20]% Culture cost of natural border growth [in this city]"
+		"[-20]% Culture cost of natural border growth [in capital]"
 	]
   },
   {
@@ -25,11 +25,10 @@
 	"uniques": [
       		"Gain enough Faith for a Pantheon",
 		"May choose [2] additional [Pantheon] beliefs when [founding] a religion",
-		"[+25]% Natural religion spread [in this city]",
-		"[+25]% Natural religion spread [in all cities]",
-      		"Religion naturally spreads to cities [2] tiles away",
+		"[+50]% Natural religion spread [in capital]",
+		"[+50]% Natural religion spread [in all cities connected to capital]",
       		"Only available <when religion is enabled>",
-      		"Gain a free [Shrine] [in all cities]"
+      		"Gain a free [Shrine] [in all cities connected to capital]"
 	],
 	"requiredTech": "Pottery",
 	"isNationalWonder": true
@@ -41,10 +40,9 @@
 	"science": 1,
 	"greatPersonPoints": {"Great Engineer": 1},
 	"uniques": [
-		"[+10]% growth [in all cities]",
-		"[20]% Food is carried over after population increases [in all cities]",
-		"[+1 Gold, +1 Happiness] from every [Fresh Water]",
-      		"Provides a [Thermae] in your first [4] cities for free"
+		"[+10]% growth [in all cities connected to capital]",
+		"[20]% Food is carried over after population increases [in all cities connected to capital]",
+		"[+1 Gold, +1 Happiness] from every [Fresh Water]"
 	],
 	"requiredTech": "Engineering",
 	"isNationalWonder": true
@@ -60,7 +58,7 @@
 	"uniques": [
 		"Gain [100] [Gold] <upon expending a [Great Person] unit>",
 		"[+25]% Great Person generation [in this city]",
-      		"[-20]% Culture cost of natural border growth [in all cities]",
+      		"[-20]% Culture cost of natural border growth [in all cities connected to capital]",
       		"New [Military] units start with [15] XP [in this city]",
       		"Gain a free [Castle] [in this city]",
 	],
@@ -88,12 +86,9 @@
 	"name": "Insula",
 	"uniqueTo": "Rome",
 	"cost": 40,
-	"food": 1,
-	"gold": 1,
 	"uniques": [
 		"[+10]% growth [in this city]",
-		"[+1 Gold] per [3] population [in this city]",
-		"[+1 Production] per [3] population [in this city]",
+		"[+1 Gold, +1 Production] per [3] population [in this city]",
 		"[+1 Food, +1 Production] from [Plantation] tiles [in this city]",
 		"[+1 Food, +1 Production] from [Fishing Boats] tiles [in this city]",
 		"[+1 Food, +1 Production] from [Camp] tiles [in this city]",
@@ -107,13 +102,10 @@
 	"name": "Domus",
 	"uniqueTo": "Rome",
 	"requiredBuilding": "Insula",
-	"culture": 1,
-	"gold": 1,
 	"specialistSlots": {"Artist": 2, "Engineer": 2, "Merchant": 2, "Scientist": 2},
 	"uniques": [
 		"[+10]% growth [in this city]",
-		"[+1 Gold] per [2] population [in this city]",
-		"[+1 Production] per [2] population [in this city]",
+		"[+1 Gold, +1 Production] per [2] population [in this city]",
 		"[+25]% Great Person generation [in this city]",
 		"[+1 Happiness] per [5] population [in this city]",
 		"[+1 Gold] from every specialist [in this city]",
@@ -131,7 +123,7 @@
 	"name": "Villa",
 	"uniqueTo": "Rome",
 	"requiredBuilding": "Domus",
-	"cityHealth": 20,
+	"cityHealth": 25,
 	"greatPersonPoints": {"Great Artist": 1, "Great Engineer": 1, "Great Merchant": 1, "Great Scientist": 1},
 	"uniques": [
 		"[+25]% Great Person generation [in this city]",
